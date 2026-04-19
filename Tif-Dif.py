@@ -474,7 +474,7 @@ class ImageScanner:
 
 
 def main():
-    share_dir = r"share"
+    share_dir = r"dataset\share"
 
     if not os.path.isdir(share_dir):
         print(f"❌ Директория не найдена: {share_dir}")
